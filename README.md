@@ -1,5 +1,5 @@
 # pygments-style-ssms
 A Pygments style inspired by Microsoft SSMS.
 
-## Install
-'pip install pygments-style-ssms'
+## Installation
+```pip install pygments-style-ssms```
