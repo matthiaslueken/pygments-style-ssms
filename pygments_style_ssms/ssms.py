@@ -11,7 +11,7 @@
 
 from pygments.style import Style
 from pygments.token import Keyword, Name, Comment, String, Error, \
-     Number, Operator
+     Number, Operator, Punctuation
 
 
 class SSMSStyle(Style):
@@ -29,7 +29,9 @@ class SSMSStyle(Style):
         Name:                      "#000000",
         Name.Function:             "#ff00ff",
         Name.Builtin:              "#01ff00",
+        Name.Class:                "#0000ff",
         String:                    "#ff0000",
         Error:                     "border:#ff0000",
-        Number:                    "#000000"
+        Number:                    "#000000",
+        Punctuation:               "#808080"
     }
